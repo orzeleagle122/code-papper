@@ -22,6 +22,7 @@ export const theme = createTheme({
       fontWeight: 700,
       fontSize: '3.5rem',
       lineHeight: 1.375,
+      padding: '30px 0'
     },
     h2: {
       fontWeight: 700,
@@ -49,6 +50,13 @@ export const theme = createTheme({
           textTransform: 'none',
         },
       },
+    },
+    MuiGrid: {
+      styleOverrides: {
+        container: {
+          padding: '10px 0'
+        }
+      }
     },
     MuiSelect: {
       styleOverrides: {

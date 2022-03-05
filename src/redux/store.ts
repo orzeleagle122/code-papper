@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
-import wars from './slices/warsSlice'
+import people from './slices/peopleSlice'
+import starships from './slices/starshipsSlice'
 
 export const store = configureStore({
     reducer: {
-        wars,
+        people,
+        starships
     },
 })
 

@@ -1,4 +1,5 @@
-export interface ITeam {
+
+export interface IPerson{
     birth_year: string;
     eye_color: string;
     films: string[];
